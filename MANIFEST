@@ -1,0 +1,11 @@
+Build.PL
+Changes
+LICENSE
+MANIFEST
+MANIFEST.SKIP
+META.yml
+README
+dist.ini
+lib/Task/BeLike/SHARYANTO/Devel.pm
+t/00-compile.t
+t/task-bogus.t

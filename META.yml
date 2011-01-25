@@ -1,0 +1,27 @@
+---
+abstract: "Install modules currently used in SHARYANTO's developing environment"
+author:
+  - 'Steven Haryanto <stevenharyanto@gmail.com>'
+build_requires:
+  Module::Build: 0.3601
+configure_requires:
+  Module::Build: 0.3601
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.102343, CPAN::Meta::Converter version 2.102400'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Task-BeLike-SHARYANTO-Devel
+requires:
+  Devel::EndStats: 0
+  Dist::Zilla: 0
+  Dist::Zilla::Plugin::CheckChangeLog: 0
+  Dist::Zilla::Plugin::CompileTests: 0
+  Dist::Zilla::Plugin::PodWeaver: 0
+  Dist::Zilla::Plugin::ReadmeFromPod: 0
+  Dist::Zilla::Plugin::TaskWeaver: 0
+resources:
+  homepage: http://search.cpan.org/dist/Task-BeLike-SHARYANTO-Devel/
+  repository: http://github.com/sharyanto/perl-Task-BeLike-SHARYANTO-Devel
+version: 0.01
