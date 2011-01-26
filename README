@@ -3,7 +3,7 @@ NAME
     SHARYANTO's developing environment
 
 VERSION
-    version 0.01
+    version 0.02
 
 DESCRIPTION
     This task will install modules currently used in all my developing
@@ -23,6 +23,9 @@ DESCRIPTION
 
 TASK CONTENTS
   Included modules
+   App::cpanminus
+   App::FatPacker
+   CPAN::Mini
    Devel::EndStats
    Dist::Zilla
    Dist::Zilla::Plugin::CheckChangeLog
@@ -30,6 +33,7 @@ TASK CONTENTS
    Dist::Zilla::Plugin::PodWeaver
    Dist::Zilla::Plugin::ReadmeFromPod
    Dist::Zilla::Plugin::TaskWeaver
+   Module::CoreList
 AUTHOR
     Steven Haryanto <stevenharyanto@gmail.com>
 

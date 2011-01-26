@@ -1,6 +1,6 @@
 package Task::BeLike::SHARYANTO::Devel;
 BEGIN {
-  $Task::BeLike::SHARYANTO::Devel::VERSION = '0.01';
+  $Task::BeLike::SHARYANTO::Devel::VERSION = '0.02';
 }
 # ABSTRACT: Install modules currently used in SHARYANTO's developing environment
 
@@ -16,7 +16,7 @@ Task::BeLike::SHARYANTO::Devel - Install modules currently used in SHARYANTO's d
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 DESCRIPTION
 
@@ -43,6 +43,12 @@ want to imitate my developing environment.
 
 =head2 Included modules
 
+=head3 App::cpanminus
+
+=head3 App::FatPacker
+
+=head3 CPAN::Mini
+
 =head3 Devel::EndStats
 
 =head3 Dist::Zilla
@@ -56,6 +62,8 @@ want to imitate my developing environment.
 =head3 Dist::Zilla::Plugin::ReadmeFromPod
 
 =head3 Dist::Zilla::Plugin::TaskWeaver
+
+=head3 Module::CoreList
 
 =head1 AUTHOR
 
