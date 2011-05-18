@@ -17,7 +17,7 @@ my %module_build_args = (
     'Steven Haryanto <stevenharyanto@gmail.com>'
   ],
   'dist_name' => 'Task-BeLike-SHARYANTO-Devel',
-  'dist_version' => '0.02',
+  'dist_version' => '0.03',
   'license' => 'perl',
   'module_name' => 'Task::BeLike::SHARYANTO::Devel',
   'recommends' => {},
@@ -30,8 +30,10 @@ my %module_build_args = (
     'Dist::Zilla' => '0',
     'Dist::Zilla::Plugin::CheckChangeLog' => '0',
     'Dist::Zilla::Plugin::CompileTests' => '0',
+    'Dist::Zilla::Plugin::InstallRelease' => '0',
     'Dist::Zilla::Plugin::PodWeaver' => '0',
     'Dist::Zilla::Plugin::ReadmeFromPod' => '0',
+    'Dist::Zilla::Plugin::Run' => '0',
     'Dist::Zilla::Plugin::TaskWeaver' => '0',
     'Module::CoreList' => '0'
   },

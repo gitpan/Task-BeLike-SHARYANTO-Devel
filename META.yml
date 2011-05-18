@@ -7,7 +7,7 @@ build_requires:
 configure_requires:
   Module::Build: 0.3601
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.102343, CPAN::Meta::Converter version 2.102400'
+generated_by: 'Dist::Zilla version 4.200004, CPAN::Meta::Converter version 2.110580'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -21,11 +21,13 @@ requires:
   Dist::Zilla: 0
   Dist::Zilla::Plugin::CheckChangeLog: 0
   Dist::Zilla::Plugin::CompileTests: 0
+  Dist::Zilla::Plugin::InstallRelease: 0
   Dist::Zilla::Plugin::PodWeaver: 0
   Dist::Zilla::Plugin::ReadmeFromPod: 0
+  Dist::Zilla::Plugin::Run: 0
   Dist::Zilla::Plugin::TaskWeaver: 0
   Module::CoreList: 0
 resources:
   homepage: http://search.cpan.org/dist/Task-BeLike-SHARYANTO-Devel/
   repository: http://github.com/sharyanto/perl-Task-BeLike-SHARYANTO-Devel
-version: 0.02
+version: 0.03
