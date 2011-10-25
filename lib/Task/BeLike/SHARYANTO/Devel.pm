@@ -1,11 +1,14 @@
 package Task::BeLike::SHARYANTO::Devel;
-BEGIN {
-  $Task::BeLike::SHARYANTO::Devel::VERSION = '0.03';
+{
+  $Task::BeLike::SHARYANTO::Devel::VERSION = '0.04';
 }
+
+our $VERSION = '0.04'; # VERSION
+
+1;
 # ABSTRACT: Install modules currently used in SHARYANTO's developing environment
 
 
-1;
 
 __END__
 =pod
@@ -16,7 +19,7 @@ Task::BeLike::SHARYANTO::Devel - Install modules currently used in SHARYANTO's d
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 DESCRIPTION
 
@@ -43,31 +46,35 @@ want to imitate my developing environment.
 
 =head2 Included modules
 
-=head3 App::cpanminus
+=head3 L<App::cpanminus>
 
-=head3 App::FatPacker
+=head3 L<App::FatPacker>
 
-=head3 CPAN::Mini
+=head3 L<Class::Autouse>
 
-=head3 Devel::EndStats
+=head3 L<CPAN::Mini>
 
-=head3 Dist::Zilla
+=head3 L<Devel::EndStats>
 
-=head3 Dist::Zilla::Plugin::CheckChangeLog
+=head3 L<Dist::Zilla>
 
-=head3 Dist::Zilla::Plugin::CompileTests
+=head3 L<Dist::Zilla::Plugin::CheckChangeLog>
 
-=head3 Dist::Zilla::Plugin::InstallRelease
+=head3 L<Dist::Zilla::Plugin::Test::Compile>
 
-=head3 Dist::Zilla::Plugin::PodWeaver
+=head3 L<Dist::Zilla::Plugin::InstallRelease>
 
-=head3 Dist::Zilla::Plugin::ReadmeFromPod
+=head3 L<Dist::Zilla::Plugin::OurPkgVersion>
 
-=head3 Dist::Zilla::Plugin::Run
+=head3 L<Dist::Zilla::Plugin::PodWeaver>
 
-=head3 Dist::Zilla::Plugin::TaskWeaver
+=head3 L<Dist::Zilla::Plugin::ReadmeFromPod>
 
-=head3 Module::CoreList
+=head3 L<Dist::Zilla::Plugin::Run>
+
+=head3 L<Dist::Zilla::Plugin::TaskWeaver>
+
+=head3 L<Module::CoreList>
 
 =head1 AUTHOR
 

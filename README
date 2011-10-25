@@ -3,7 +3,7 @@ NAME
     SHARYANTO's developing environment
 
 VERSION
-    version 0.03
+    version 0.04
 
 DESCRIPTION
     This task will install modules currently used in all my developing
@@ -25,12 +25,14 @@ TASK CONTENTS
   Included modules
    App::cpanminus
    App::FatPacker
+   Class::Autouse
    CPAN::Mini
    Devel::EndStats
    Dist::Zilla
    Dist::Zilla::Plugin::CheckChangeLog
-   Dist::Zilla::Plugin::CompileTests
+   Dist::Zilla::Plugin::Test::Compile
    Dist::Zilla::Plugin::InstallRelease
+   Dist::Zilla::Plugin::OurPkgVersion
    Dist::Zilla::Plugin::PodWeaver
    Dist::Zilla::Plugin::ReadmeFromPod
    Dist::Zilla::Plugin::Run
