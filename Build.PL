@@ -17,7 +17,7 @@ my %module_build_args = (
     "Steven Haryanto <stevenharyanto\@gmail.com>"
   ],
   "dist_name" => "Task-BeLike-SHARYANTO-Devel",
-  "dist_version" => "0.04",
+  "dist_version" => "0.05",
   "license" => "perl",
   "module_name" => "Task::BeLike::SHARYANTO::Devel",
   "recommends" => {},
@@ -25,18 +25,13 @@ my %module_build_args = (
   "requires" => {
     "App::FatPacker" => 0,
     "App::cpanminus" => 0,
+    "App::perlbrew" => 0,
+    "App::perlzonji" => 0,
     "CPAN::Mini" => 0,
     "Class::Autouse" => 0,
     "Devel::EndStats" => 0,
     "Dist::Zilla" => 0,
-    "Dist::Zilla::Plugin::CheckChangeLog" => 0,
-    "Dist::Zilla::Plugin::InstallRelease" => 0,
-    "Dist::Zilla::Plugin::OurPkgVersion" => 0,
-    "Dist::Zilla::Plugin::PodWeaver" => 0,
-    "Dist::Zilla::Plugin::ReadmeFromPod" => 0,
-    "Dist::Zilla::Plugin::Run" => 0,
-    "Dist::Zilla::Plugin::TaskWeaver" => 0,
-    "Dist::Zilla::Plugin::Test::Compile" => 0,
+    "Dist::Zilla::PluginBundle::SHARYANTO" => 0,
     "Module::CoreList" => 0
   },
   "script_files" => []

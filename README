@@ -3,7 +3,7 @@ NAME
     SHARYANTO's developing environment
 
 VERSION
-    version 0.04
+    version 0.05
 
 DESCRIPTION
     This task will install modules currently used in all my developing
@@ -25,24 +25,19 @@ TASK CONTENTS
   Included modules
    App::cpanminus
    App::FatPacker
+   App::perlbrew
+   App::perlzonji
    Class::Autouse
    CPAN::Mini
    Devel::EndStats
    Dist::Zilla
-   Dist::Zilla::Plugin::CheckChangeLog
-   Dist::Zilla::Plugin::Test::Compile
-   Dist::Zilla::Plugin::InstallRelease
-   Dist::Zilla::Plugin::OurPkgVersion
-   Dist::Zilla::Plugin::PodWeaver
-   Dist::Zilla::Plugin::ReadmeFromPod
-   Dist::Zilla::Plugin::Run
-   Dist::Zilla::Plugin::TaskWeaver
+   Dist::Zilla::PluginBundle::SHARYANTO
    Module::CoreList
 AUTHOR
     Steven Haryanto <stevenharyanto@gmail.com>
 
 COPYRIGHT AND LICENSE
-    This software is copyright (c) 2011 by Steven Haryanto.
+    This software is copyright (c) 2012 by Steven Haryanto.
 
     This is free software; you can redistribute it and/or modify it under
     the same terms as the Perl 5 programming language system itself.

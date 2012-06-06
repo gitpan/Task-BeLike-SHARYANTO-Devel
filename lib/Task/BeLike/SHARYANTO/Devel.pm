@@ -1,9 +1,6 @@
 package Task::BeLike::SHARYANTO::Devel;
-{
-  $Task::BeLike::SHARYANTO::Devel::VERSION = '0.04';
-}
 
-our $VERSION = '0.04'; # VERSION
+our $VERSION = '0.05'; # VERSION
 
 1;
 # ABSTRACT: Install modules currently used in SHARYANTO's developing environment
@@ -19,7 +16,7 @@ Task::BeLike::SHARYANTO::Devel - Install modules currently used in SHARYANTO's d
 
 =head1 VERSION
 
-version 0.04
+version 0.05
 
 =head1 DESCRIPTION
 
@@ -50,6 +47,10 @@ want to imitate my developing environment.
 
 =head3 L<App::FatPacker>
 
+=head3 L<App::perlbrew>
+
+=head3 L<App::perlzonji>
+
 =head3 L<Class::Autouse>
 
 =head3 L<CPAN::Mini>
@@ -58,21 +59,7 @@ want to imitate my developing environment.
 
 =head3 L<Dist::Zilla>
 
-=head3 L<Dist::Zilla::Plugin::CheckChangeLog>
-
-=head3 L<Dist::Zilla::Plugin::Test::Compile>
-
-=head3 L<Dist::Zilla::Plugin::InstallRelease>
-
-=head3 L<Dist::Zilla::Plugin::OurPkgVersion>
-
-=head3 L<Dist::Zilla::Plugin::PodWeaver>
-
-=head3 L<Dist::Zilla::Plugin::ReadmeFromPod>
-
-=head3 L<Dist::Zilla::Plugin::Run>
-
-=head3 L<Dist::Zilla::Plugin::TaskWeaver>
+=head3 L<Dist::Zilla::PluginBundle::SHARYANTO>
 
 =head3 L<Module::CoreList>
 
@@ -82,7 +69,7 @@ Steven Haryanto <stevenharyanto@gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2011 by Steven Haryanto.
+This software is copyright (c) 2012 by Steven Haryanto.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

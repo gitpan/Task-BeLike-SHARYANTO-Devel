@@ -1,0 +1,51 @@
+{
+   "abstract" : "Install modules currently used in SHARYANTO's developing environment",
+   "author" : [
+      "Steven Haryanto <stevenharyanto@gmail.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.300006, CPAN::Meta::Converter version 2.113640",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Task-BeLike-SHARYANTO-Devel",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Module::Build" : "0.3601"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.3601"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "App::FatPacker" : 0,
+            "App::cpanminus" : 0,
+            "App::perlbrew" : 0,
+            "App::perlzonji" : 0,
+            "CPAN::Mini" : 0,
+            "Class::Autouse" : 0,
+            "Devel::EndStats" : 0,
+            "Dist::Zilla" : 0,
+            "Dist::Zilla::PluginBundle::SHARYANTO" : 0,
+            "Module::CoreList" : 0
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "homepage" : "http://search.cpan.org/dist/Task-BeLike-SHARYANTO-Devel/",
+      "repository" : {
+         "url" : "http://github.com/sharyanto/perl-Task-BeLike-SHARYANTO-Devel"
+      }
+   },
+   "version" : "0.05"
+}
+
