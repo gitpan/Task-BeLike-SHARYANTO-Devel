@@ -3,7 +3,7 @@ NAME
     SHARYANTO's developing environment
 
 VERSION
-    version 0.05
+    version 0.06
 
 DESCRIPTION
     This task will install modules currently used in all my developing
@@ -11,15 +11,19 @@ DESCRIPTION
 
     *   already in 5.10 core;
 
-    *   used in applications (see Task::BeLike::SHARYANTO::Apps);
+    *   written by me (see Task::BeLike::SHARYANTO::Authored);
 
-    *   required by my very specific applications;
-
-    *   required by my old/obsolete applications;
+    *   used in my applications (see Task::BeLike::SHARYANTO::Apps);
 
     The purpose of this distribution is to make it easy to setup my
     developing environment. Thus, this distribution is probably only useful
     to me or people who want to imitate my developing environment.
+
+    Todo/futures:
+
+    *   carton
+
+    *   Pinto
 
 TASK CONTENTS
   Included modules
@@ -27,11 +31,13 @@ TASK CONTENTS
    App::FatPacker
    App::perlbrew
    App::perlzonji
+   Carp::Always
+   Carp::Always::Color
    Class::Autouse
    CPAN::Mini
-   Devel::EndStats
+   Data::Dump
+   Devel::NYTProf
    Dist::Zilla
-   Dist::Zilla::PluginBundle::SHARYANTO
    Module::CoreList
 AUTHOR
     Steven Haryanto <stevenharyanto@gmail.com>

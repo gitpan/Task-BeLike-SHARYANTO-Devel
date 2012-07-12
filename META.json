@@ -31,10 +31,12 @@
             "App::perlbrew" : 0,
             "App::perlzonji" : 0,
             "CPAN::Mini" : 0,
+            "Carp::Always" : 0,
+            "Carp::Always::Color" : 0,
             "Class::Autouse" : 0,
-            "Devel::EndStats" : 0,
+            "Data::Dump" : 0,
+            "Devel::NYTProf" : 0,
             "Dist::Zilla" : 0,
-            "Dist::Zilla::PluginBundle::SHARYANTO" : 0,
             "Module::CoreList" : 0
          }
       }
@@ -46,6 +48,6 @@
          "url" : "http://github.com/sharyanto/perl-Task-BeLike-SHARYANTO-Devel"
       }
    },
-   "version" : "0.05"
+   "version" : "0.06"
 }
 
